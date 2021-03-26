@@ -36,6 +36,31 @@ document.addEventListener("keypress", function (e) {
             audio = new Audio("J.mp3");
             audio.play();
             break;
+        case "KeyW":
+            console.log("The 'W' key is pressed.");
+            audio = new Audio("W.mp3");
+            audio.play();
+            break;
+        case "KeyE":
+            console.log("The 'E' key is pressed.");
+            audio = new Audio("E.mp3");
+            audio.play();
+            break;
+        case "KeyT":
+            console.log("The 'T' key is pressed.");
+            audio = new Audio("T.mp3");
+            audio.play();
+            break;
+        case "KeyY":
+            console.log("The 'Y' key is pressed.");
+            audio = new Audio("Y.mp3");
+            audio.play();
+            break;
+        case "KeyU":
+            console.log("The 'U' key is pressed.");
+            audio = new Audio("U.mp3");
+            audio.play();
+            break;
         default:
             console.log("Wrong key");
             break;
